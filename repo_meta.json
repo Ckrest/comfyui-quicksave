@@ -1,0 +1,7 @@
+{
+  "name": "comfyui-quicksave",
+  "description": "Toolbar button for quickly saving images from ComfyUI previews with duplicate detection.",
+  "topics": ["comfyui", "custom-nodes", "toolbar", "save", "utility"],
+  "private": false,
+  "homepage": ""
+}
