@@ -1,34 +1,15 @@
-# ComfyUI QuickSave - Image Save Button
+# comfyui-quicksave
 name: comfyui-quicksave
-tier: ai
-status: active
-readiness: ready
-description: Toolbar button for quickly saving images from ComfyUI previews with duplicate detection
-
-has:
-  - own-git-repo
-
-repository: https://github.com/Ckrest/comfyui-quicksave
-license: MIT
-runtime: python
-
-depends_on:
-  - comfyui
-
+description: Toolbar button for quickly saving images from ComfyUI previews with duplicate
+  detection
+state: draft
+traits:
+- comfyui-node
+- published
+- path-dependencies
+- python
 tags:
-  - comfyui
-  - custom-nodes
-  - save
-  - toolbar
-  - images
-  - library
-
-usage: |
-  ComfyUI custom node for quick image saving.
-
-  Install: Symlink to ComfyUI/custom_nodes/
-
-  Features:
-  - Toolbar save button on preview images
-  - Duplicate detection (hash-based)
-  - Configurable save location
+- ComfyUI
+- Python
+depends_on:
+- comfyui
