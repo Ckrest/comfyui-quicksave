@@ -1,9 +1,0 @@
-# comfyui-quicksave - path-dependencies trait
-
-paths:
-- path: js/QuickSave.js
-  purpose: Toolbar button UI
-  type: file
-- path: QuickSave.py
-  purpose: Backend save logic
-  type: binary

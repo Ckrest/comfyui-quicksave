@@ -1,12 +1,10 @@
-# comfyui-quicksave
 name: comfyui-quicksave
 description: Toolbar button for quickly saving images from ComfyUI previews with duplicate
   detection
-state: draft
+state: ready
 traits:
 - comfyui-node
 - published
-- path-dependencies
 - python
 tags:
 - ComfyUI
