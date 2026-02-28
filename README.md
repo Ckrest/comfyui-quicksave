@@ -23,6 +23,12 @@ A toolbar button for quickly saving images from ComfyUI's preview.
 
 3. A **QuickSave** button appears in the toolbar
 
+## Screenshots
+
+| Toolbar Button | Settings Dialog |
+|:-:|:-:|
+| ![Toolbar Button](screenshots/toolbar-button.png) | ![Settings Dialog](screenshots/settings-dialog.png) |
+
 ## Usage
 
 1. Run a workflow that generates images
