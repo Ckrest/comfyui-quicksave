@@ -1,0 +1,19 @@
+[project]
+name = "comfyui-quicksave"
+version = "0.1.0"
+description = "Toolbar button for quickly saving images from ComfyUI previews with duplicate detection"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Ckrest"}]
+license = {file = "LICENSE"}
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/Ckrest/comfyui-quicksave"
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["QuickSave"]
